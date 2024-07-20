@@ -1,4 +1,4 @@
-workspace = { members = ["echor"] }
+workspace = { members = [ "catr","echor"] }
 [package]
 name = "command-line-rust"
 version = "0.1.0"
