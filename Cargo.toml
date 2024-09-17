@@ -1,5 +1,5 @@
 workspace = { members = [
-  "catr",
+  "catr", "commr",
   "cutr",
   "echor",
   "findr",
