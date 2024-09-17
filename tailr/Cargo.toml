@@ -1,0 +1,18 @@
+[package]
+name = "tailr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.9", features = ["derive"] }
+anyhow = "1.0.89"
+num = "0.4.3"
+once_cell = "1.19.0"
+regex = "1.10.6"
+
+
+[dev-dependencies]
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+pretty_assertions = "1.4.1"
+rand = "0.8.5"

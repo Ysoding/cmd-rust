@@ -5,7 +5,7 @@ workspace = { members = [
   "findr",
   "grepr",
   "headr",
-  "httpie",
+  "httpie", "tailr",
   "uniqr",
   "wcr",
 ] }
