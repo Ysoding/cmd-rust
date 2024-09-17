@@ -463,6 +463,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "fortuner"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "assert_cmd",
+ "clap",
+ "predicates",
+ "pretty_assertions",
+ "rand",
+ "regex",
+ "walkdir",
+]
+
+[[package]]
 name = "futures-channel"
 version = "0.3.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"

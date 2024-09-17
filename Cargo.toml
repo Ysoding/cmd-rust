@@ -2,7 +2,7 @@ workspace = { members = [
   "catr", "commr",
   "cutr",
   "echor",
-  "findr",
+  "findr", "fortuner",
   "grepr",
   "headr",
   "httpie", "tailr",

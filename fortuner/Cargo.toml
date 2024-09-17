@@ -1,0 +1,18 @@
+[package]
+name = "fortuner"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+clap = { version = "4.5.9", features = ["derive"] }
+regex = "1.10.6"
+anyhow = "1.0.89"
+walkdir = "2.5.0"
+rand = "0.8.5"
+
+
+[dev-dependencies]
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+pretty_assertions = "1.4.1"
